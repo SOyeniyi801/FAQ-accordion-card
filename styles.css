@@ -8,6 +8,7 @@ h1{
     font-weight: 700;
     position: relative;
     left: 57%;
+    color:  hsl(238, 29%, 16%);
 }
 
 hr.solid {
@@ -25,7 +26,7 @@ label {
     padding: 8px 22px;
     cursor: pointer;
     border-radius: 3px;
-    color: hsl(238, 29%, 16%);
+    color: hsl(237, 12%, 33%);
     transition: ease .5s;
     Font-size: 12px;
     font-family: 'Kumbh Sans', sans-serif;
@@ -43,6 +44,7 @@ p {
     Font-size: 12px;
     font-family: 'Kumbh Sans', sans-serif;
     word-wrap: break-word;
+    color:  hsl(240, 6%, 50%);
 }
 
 .content {
@@ -123,6 +125,13 @@ input:checked + label::after {
     .container{
         left: 78px;
         top: 22%
+    }
+    
+  } 
+
+  @media only screen and (max-width: 980px) { 
+    .container{
+        left: 166px;
     }
     
   } 
